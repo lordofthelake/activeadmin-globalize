@@ -8,7 +8,7 @@ Sorry, but I no longer work on ActiveAdmin often enough to justify mantaining th
 ## Installation
 
 ```ruby
-gem "activeadmin-globalize", github: 'stefanoverna/activeadmin-globalize',
+gem "activeadmin-globalize", github: 'damjack/activeadmin-globalize',
 branch: 'master'
 ```
 We still need to use GitHub because ActiveAdmin is still in active development
