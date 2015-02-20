@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.version     = ActiveAdmin::Globalize::VERSION
   s.authors     = ["Stefano Verna", "Damiano Giacomello"]
   s.email       = ["stefano.verna@gmail.com", "giacomello.damiano@gmail.com"]
-  s.homepage    = "http://github.com/damjack/activeadmin-globalize"
+  s.homepage    = "http://github.com/ybart/activeadmin-globalize"
   s.summary     = "Handles globalize translations"
   s.description = "Handles globalize translations"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
 
   s.add_dependency "activeadmin"
-  s.add_dependency "globalize", '~> 4.0.0'
+  s.add_dependency "globalize"
 end
 
