@@ -7,9 +7,9 @@ require "active_admin/globalize/version"
 Gem::Specification.new do |s|
   s.name        = "activeadmin-globalize"
   s.version     = ActiveAdmin::Globalize::VERSION
-  s.authors     = ["Stefano Verna", "Damiano Giacomello"]
-  s.email       = ["stefano.verna@gmail.com", "giacomello.damiano@gmail.com"]
-  s.homepage    = "http://github.com/ybart/activeadmin-globalize"
+  s.authors     = ["Stefano Verna", "Damiano Giacomello", "Michele Piccirillo"]
+  s.email       = ["stefano.verna@gmail.com", "giacomello.damiano@gmail.com", "michele.piccirillo@gmail.com"]
+  s.homepage    = "http://github.com/noematics/activeadmin-globalize"
   s.summary     = "Handles globalize translations"
   s.description = "Handles globalize translations"
 
