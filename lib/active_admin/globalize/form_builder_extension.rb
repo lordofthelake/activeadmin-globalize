@@ -27,10 +27,10 @@ module ActiveAdmin
             translation = object.translations.find { |t| t.locale.to_s == locale.to_s }
             translation ||= object.translations.build(locale: locale)
             fields = proc do |form|
-              form.input(:locale, as: :hidden)
-              form.input(:id, as: :hidden)
+              template.concat form.input(:locale, as: :hidden)
+              template.concat form.input(:id, as: :hidden)
               I18n.with_locale(switch_locale ? locale : I18n.locale) do
-                block.call(form)
+                template.concat block.call(form)
               end
             end
             inputs_for_nested_attributes(
